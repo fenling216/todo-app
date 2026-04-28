@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>待办事项小程序</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>我的待办事项</h1>
+
+    <div class="todo-form">
+      <input id="todoInput" type="text" placeholder="请输入一个新任务">
+      <button id="addButton">添加</button>
+    </div>
+
+    <div class="todo-actions">
+      <button id="clearDoneButton">清空已完成任务</button>
+    </div>
+
+    <ul id="todoList" class="todo-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
